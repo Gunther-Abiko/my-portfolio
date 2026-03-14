@@ -4,9 +4,9 @@
 
 import { useScrollReveal } from '../hooks/useScrollReveal';
 import { useEffect, useState } from 'react';
-import Cpt1 from '../assets/Cpt1.JPG';
-import Cpt2 from '../assets/Cpt2.JPG';
-import Cpt3 from '../assets/Cpt3.JPG';
+import Cpt1 from '../assets/Cpt1.jpg';
+import Cpt2 from '../assets/Cpt2.jpg';
+import Cpt3 from '../assets/Cpt3.jpg';
 
 // Card bg gradients — one per project (order matches translations)
 const CARD_GRADIENTS = [
