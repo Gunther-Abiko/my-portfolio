@@ -8,7 +8,7 @@ export default function Hero({ t }) {
   return (
     <section id="hero" style={styles.section}>
       {/* Left — text */}
-      <div className="hero-right" style={styles.left}>
+      <div style={styles.left}>
         <p style={styles.eyebrow}>{th.eyebrow}</p>
 
         <h1 style={styles.name}>
@@ -30,7 +30,7 @@ export default function Hero({ t }) {
       </div>
 
       {/* Right — decorative frame */}
-      <div style={styles.right}>
+      <div className="hero-right" style={styles.right}>
         <div style={styles.frame}>
           {['tl','tr','bl','br'].map((pos) => (
             <span key={pos} style={styles.corner(pos)} />
