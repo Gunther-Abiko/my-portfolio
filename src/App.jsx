@@ -5,7 +5,7 @@
 // ============================================================
 
 import './styles/global.css';
-
+import { useEffect } from 'react';
 import { useLanguage }   from './hooks/useLanguage';
 import { translations }  from './data/translations';
 
@@ -37,9 +37,3 @@ export default function App() {
     </>
   );
 }
-
-
-useEffect(() => {
-  opacity = 0;
-  
-}, [current])
