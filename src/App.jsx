@@ -37,3 +37,9 @@ export default function App() {
     </>
   );
 }
+
+
+useEffect(() => {
+  opacity = 0;
+  
+}, [current])

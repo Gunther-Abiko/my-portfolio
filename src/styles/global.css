@@ -206,8 +206,11 @@ body::before {
 }
 
 /* ── Responsive ── */
-@media (max-width: 900px) {
+@media (max-width: 768px) {
   .section-wrapper  { padding: 70px 24px; }
   .section-inner    { padding: 0 24px; }
   .section-full     { padding: 70px 0; }
+  .hero-right {display: none; }
+  .hero-grid { grid-template-columns: 1fr; }
+  .btn { width: 100%; text-align: center; }
 }

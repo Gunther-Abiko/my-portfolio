@@ -8,7 +8,7 @@ export default function Hero({ t }) {
   return (
     <section id="hero" style={styles.section}>
       {/* Left — text */}
-      <div style={styles.left}>
+      <div className="hero-right" style={styles.left}>
         <p style={styles.eyebrow}>{th.eyebrow}</p>
 
         <h1 style={styles.name}>
