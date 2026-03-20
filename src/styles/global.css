@@ -702,6 +702,25 @@ body::before {
 }
 
 /* ══════════════════════════════════════
+   content spacing
+══════════════════════════════════════ */
+.contact-form-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.contact-status {
+  font-size: 0.9rem;
+  font-family: var(--font-body);
+}
+
+.contact-status--success { color: #4a7c59; }
+.contact-status--error   { color: var(--rust); }
+
+
+/* ══════════════════════════════════════
    RESPONSIVE  (max-width: 768px)
 ══════════════════════════════════════ */
 @media (max-width: 768px) {
