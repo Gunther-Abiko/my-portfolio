@@ -734,7 +734,7 @@ body::before {
   /* Hero */
   .hero-grid    { grid-template-columns: 1fr; }
   .hero-right   { display: none; }
-  .hero-left    { padding: 48px 24px; }
+  .hero-left    { padding: 32px 24px; gap: 40px; } 
   .hero-tagline { max-width: 100%; }
   .hero-cta     { flex-direction: column; width: 100%; }
   .hero-cta .btn { width: 100%; text-align: center; }
